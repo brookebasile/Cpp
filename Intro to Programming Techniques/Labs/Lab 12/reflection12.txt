@@ -1,0 +1,20 @@
+    1. Why did we pass the struct as a reference variable?
+	Because we need to modify the original variable to be able to pass it to the writeReport function.
+    2. Why did we declare it as const?
+    	So the function does not corrupt the value of the argument (i.e. try
+	to convert it to a float or a double (?))
+    3. Does it make sense to do both? Explain why it does or does not.
+    	Doing both cuts down on overhead and memory usage because a copy of
+	the variable isn't made.  Also, as
+	previously stated, passing the struct by reference allows the function
+	to modify the original variable so that it can be passed to other
+	functions.  Declaring the struct as const is a safety measure to
+	prevent the function from modifying the original argument, altering
+	the argument's value, as passing by reference allows the function
+	access to the original argument. 
+
+I was struggling with input/output file processing for awhile, but after this
+assignment I finally feel like I have a better grasp on it. 
+One of my worries is the formatting for output, I feel like the way I'm doing
+it looks ugly or inelegant and I'm wondering if there's a better way to format
+output. 

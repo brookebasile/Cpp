@@ -1,0 +1,9 @@
+This lab was challenging for me, but it was fun.  I feel like I learned a lot
+about not only vectors, but also text file processing and handling characters.
+Initially I struggled with how to read the data from the file into a struct
+and then initialize that struct in the vector.  I asked for some assistance in
+a C++ Discord server I'm in and on Stackoverflow.  I ended up learning 3
+different ways to do it; the "expected" way using only the material we've
+covered in class so far, defining the ">> operator" for the struct Parts, and
+another method using istream.  So all in all this was a great learning
+experience for me.

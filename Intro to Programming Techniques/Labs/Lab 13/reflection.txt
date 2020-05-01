@@ -1,0 +1,9 @@
+This lab really helped my understanding of arrays and how they are handled in
+memory.  At first I did not read the paragraph that states to create a
+separate variable for the array size and was getting blank values after the
+list of candidates.  It took me awhile to figure out what was going on, but
+when I did I felt silly for missing it, but I'll definitely remember why that
+error was happening from this point forward. 
+Also, going back to type casting-- I forgot to convert one of the integers in
+the percent calculation expression to a double and was getting incorrect
+values.  Again, troubleshooting this problem reinforced my knowledge.
